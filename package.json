@@ -1,0 +1,17 @@
+{
+  "name": "Ey",
+  "version": "1.0.0",
+  "description": "ey, a un toque",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dantep10",
+  "license": "ISC",
+  "dependencies": {
+     "express": "^4.13.3",
+	 "mongoose": "^3.0.6",
+	 "method-override": "^2.1.2",
+	 "body-parser": "^1.5.1"
+  }
+}

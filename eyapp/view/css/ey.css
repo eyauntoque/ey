@@ -1,0 +1,97 @@
+#galeria{
+	position: fixed;
+	left: 0;
+	top: 0;
+	min-height: 100%;
+	min-width: 100%;
+	width: auto;
+	height: auto;
+	z-index: -10;
+	visibility: visible;	
+	animation-name:gal;
+	-webkit-animation-name:gal;
+	-moz-animation-name:gal;
+	-o-animation-name:gal;
+	animation-duration:8s;
+	-webkit-animation-duration:8s;
+	-moz-animation-duration:8s;
+	-o-animation-duration:8s;
+	animation-iteration-count:infinite;
+	-webkit-animation-iteration-count:infinite;
+	-moz-animation-iteration-count:infinite;
+	-o-animation-iteration-count:infinite;
+} 
+
+@keyframes gal{
+	0%{background: url(../images/ey1.jpg);
+	   background-size: 1366px 720px;
+	   background-repeat: no-repeat;}
+
+	10%{background: url(../images/ey1.jpg);
+	    background-size: 1366px 720px;
+	   background-repeat: no-repeat;}
+
+	50%{background: url(../images/ey2.jpg);
+	   background-size: 1366px 720px;
+	   background-repeat: no-repeat;}
+
+	100%{background: url(../images/ey3.jpg);
+	  
+	     background-size: 1366px 720px;
+	     background-repeat: no-repeat;}
+}
+
+@-webkit-keyframes gal{
+	0%{background: url(../images/ey1.jpg);
+	    background-size: 1366px 720px;
+	   background-repeat: no-repeat;}
+
+	 10%{background: url(../images/ey1.jpg);
+	    background-size: 1366px 720px;
+	   background-repeat: no-repeat;}
+
+	50%{background: url(../images/ey2.jpg);
+	    background-size: 1366px 720px;
+	   background-repeat: no-repeat;}
+
+	100%{background: url(../images/ey3.jpg);
+	   background-size: 1366px 720px;
+	   background-repeat: no-repeat;}
+}
+@-moz-keyframes gal{
+	0%{background: url(../images/ey1.jpg);
+	    background-size: 1366px 720px;
+	   background-repeat: no-repeat;}
+
+	50%{background: url(../images/ey2.jpg);
+	    background-size: 1024px 720px;
+	   background-repeat: no-repeat;}
+
+	100%{background: url(../images/ey3.jpg);
+	    background-size: 1024px 720px;
+	   background-repeat: no-repeat;}
+}
+
+#contenedor {
+    display: table;
+    border: 0px solid #000;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+#contenidos {
+    display: table-row;
+}
+#columna1, #columna2, #columna3 {
+    display: table-cell;
+    border: 1px solid #000;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+#formulario {
+    display: table;
+    border: 0px solid #000;
+    text-align: center;
+    margin: 0 auto;
+}
