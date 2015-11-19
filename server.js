@@ -11,7 +11,10 @@ app.use(bodyParser.urlencoded({ extended: false}));
 app.use(bodyParser.json());
 app.use(methodOverride());
 
-mongoose.connect('mongodb://localhost/eyDataBase', function(err,res){
+var port = process.env.PORT || 8080;
+var uribd = process.env.MONGOLAB_URI || 'mongodb://localhost/eyDataBase';
+
+mongoose.connect(uribd, function(err,res){
 	if(err) throw err;
 	console.log('Conectado a la base de datos');
 });
@@ -33,6 +36,6 @@ publicacion.route('/publicacion')
 
 app.use('/api',publicacion);*/
 
-app.listen(8080, function(){
+app.listen(port, function(){
 	console.log("Servidor corriendo en http://localhost:8080");
 });

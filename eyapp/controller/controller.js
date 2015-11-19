@@ -1,6 +1,7 @@
 // controller.js
 /*var mongoose 	= require('mongoose');
 var Publicacion	= mongoose.model('publicacion');*/
+var Usuario = require('../model/bo/usuario');
 
 
 exports.insertUsuario = function(req, res) {

@@ -2,8 +2,7 @@ angular.module('MainApp', [])
 
 function mainController($scope, $http) {
 	$scope.newUsuario = {};
-	$scope.selected = false;
-
+	
 	// Función para registrar a una persona
 	$scope.registrarUsuario = function() {
 		$http.post('/publicacion', $scope.newUsuario)

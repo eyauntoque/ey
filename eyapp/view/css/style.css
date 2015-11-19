@@ -1382,7 +1382,7 @@ table tbody tr.dark {
     margin: 0 auto
 }
 
-#slide1 span, #slide2 span, #slide3 span {
+#slide1 span, #slide2 span, #slide3 span, #slide4 span {
     background: url(../images/contentBg.png) repeat top left transparent;
     position: absolute;
     bottom: 20px;
@@ -1390,7 +1390,7 @@ table tbody tr.dark {
     padding: 10px
 }
 
-#slide1 .slideheading, #slide2 .slideheading, #slide3 .slideheading {
+#slide1 .slideheading, #slide2 .slideheading, #slide3 .slideheading, #slide4 .slideheading {
     font-family: "ChunkFive Regular", Georgia, serif;
     color: #FFF;
     font-size: 35px;
@@ -1398,7 +1398,7 @@ table tbody tr.dark {
     margin: 0 0 10px
 }
 
-#slide1 p, #slide2 p, #slide3 p {
+#slide1 p, #slide2 p, #slide3 p, #slide4 {
     font-family: Artifika, Georgia, serif;
     color: #FFF;
     margin: 0
